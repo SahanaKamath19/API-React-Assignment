@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.icon{
+  height: 230px;
+  width: 235px;
+  background-image: url('./cookit.jpg');
+  background-size: cover;
+}
+.padding{
+  padding:10px;
+}
+.button{
+  background: black;
+}
+.button:hover{
+  background: black;
+}
+.button:focus{
+   background: black;
+   outline: none;
+}
