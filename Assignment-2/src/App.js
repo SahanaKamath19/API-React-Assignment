@@ -34,6 +34,7 @@ class App extends Component {
   }
 
   render() {
+
     return (
       <div className="App container">
       <h1>CookIt!!</h1>
@@ -50,7 +51,7 @@ class App extends Component {
           <button className="btn btn-primary button" onClick={this.findMe}>Find me</button>
         </form>
         <h3 display={this.state.searchedMessage} style={{display: this.state.searchedMessage ? 'block' : 'none' }}>You searched for Ingredients: "{this.state.ingredients}" and Dish: "{this.state.dish}"</h3>
-        <div>{this.state.data.results}</div>
+       <List data={this.state.data.results}/>
       </div>
     );
   }
